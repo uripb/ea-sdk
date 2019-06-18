@@ -1,5 +1,5 @@
 {
-  "name": "@zurich-es/ea-sdk-info/kaetrprf",
+  "name": "@zurich-es/ea-sdk-info-kaetrprf",
   "version": "1.0.1",
   "description": "kaetrprf",
   "main": "./lib/index.js",
