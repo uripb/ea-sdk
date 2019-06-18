@@ -1,0 +1,39 @@
+###########
+# Modules #
+###########
+node_modules
+
+###################
+# Generated files #
+###################
+dist/
+lib/
+bin/
+**/*.log
+**/webpack/output
+
+###################
+# local env files #
+###################
+.env.local
+.env.*.local
+
+##################
+# COVERAGE Files #
+##################
+coverage
+
+######################
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+################
+# Custom rules #
+################

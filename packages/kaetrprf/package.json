@@ -1,0 +1,32 @@
+{
+  "name": "@ea-sdk-info/kaetrprf",
+  "version": "1.0.0",
+  "description": "kaetrprf",
+  "main": "./lib/index.js",
+  "module": "./src/index.ts",
+  "types": "./lib/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "clean:bin": "rimraf lib",
+    "clean:out": "rimraf lib/src && rimraf lib/tests",
+    "prebuild": "npm run clean:bin",
+    "build": "tsc -p . --outDir ./lib --sourceMap false --target es5",
+    "postbuild": "npm run clean:out"
+
+  },
+  "keywords": [
+    "Digital Architecture",
+    "IDL"
+  ],
+  "author": "Zurich",
+  "license": "ISC",
+  "dependencies": {
+    "@zurich-es/ea-sdk-info-utils-js": "0.0.5",
+    "axios": "^0.18.0"
+  }
+}

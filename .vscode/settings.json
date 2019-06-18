@@ -1,0 +1,16 @@
+{
+  "eslint.run": "onSave",
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "prettier.singleQuote": true,
+  "prettier.eslintIntegration": true,
+  "editor.wordWrapColumn": 120,
+  "prettier.printWidth": 120,
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  "eslint.options": {
+    "configFile": "./.eslintrc.js"
+  }
+}

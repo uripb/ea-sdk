@@ -1,0 +1,48 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Jest - Unit Tests",
+      "cwd": "${workspaceFolder}",
+      "args": [
+        "${workspaceRoot}/node_modules/.bin/jest",
+        "--runInBand",
+        "--config=jest.unit.config.js"
+      ],
+      "windows": {
+        "args": [
+          "${workspaceRoot}/node_modules/jest/bin/jest.js",
+          "--runInBand",
+          "--config=jest.unit.config.js"
+        ]
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Jest - End-to-end Tests",
+      "cwd": "${workspaceFolder}",
+      "args": [
+        "${workspaceRoot}/node_modules/.bin/jest",
+        "--runInBand",
+        "--config=jest.e2e.config.js"
+      ],
+      "windows": {
+        "args": [
+          "${workspaceRoot}/node_modules/jest/bin/jest.js",
+          "--runInBand",
+          "--config=jest.e2e.config.js"
+        ]
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    }
+  ]
+}

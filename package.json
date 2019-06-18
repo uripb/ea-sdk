@@ -1,0 +1,20 @@
+{
+  "name": "@zurich-es/ea-sdk-info",
+  "version": "1.0.0",
+  "description": "Sdk info",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Digital Architecture",
+    "IDL"
+  ],
+  "author": "Zurich",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.12.21",
+    "lerna": "^3.15.0",
+    "typescript": "^3.2.4"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "removeComments": true,
+    "baseUrl": ".",
+    "declaration": true,
+    "typeRoots": ["./types", "./node_modules/@types"],
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "lib": ["dom", "dom.iterable", "es6", "scripthost"]
+  },
+  "exclude": ["node_modules"]
+}
