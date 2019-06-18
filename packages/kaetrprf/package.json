@@ -1,6 +1,6 @@
 {
   "name": "@ea-sdk-info/kaetrprf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "kaetrprf",
   "main": "./lib/index.js",
   "module": "./src/index.ts",
@@ -17,7 +17,6 @@
     "prebuild": "npm run clean:bin",
     "build": "tsc -p . --outDir ./lib --sourceMap false --target es5",
     "postbuild": "npm run clean:out"
-
   },
   "keywords": [
     "Digital Architecture",
