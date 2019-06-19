@@ -12,6 +12,7 @@
     "lib"
   ],
   "scripts": {
+    "bootstrap": "lerna exec npm install && npm install",
     "clean:bin": "rimraf lib",
     "clean:out": "rimraf lib/src && rimraf lib/tests",
     "prebuild": "npm run clean:bin",
@@ -25,7 +26,6 @@
   "author": "Zurich",
   "license": "ISC",
   "dependencies": {
-    "@zurich-es/ea-sdk-info-utils-js": "0.0.5",
-    "axios": "^0.18.0"
+    "@zurich-es/ea-sdk-info-utils-js": "0.0.5"
   }
 }
