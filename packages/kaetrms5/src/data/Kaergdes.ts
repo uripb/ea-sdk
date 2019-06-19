@@ -11,5 +11,4 @@ export interface Kaergdes {
   // PlDeclElementoJavascript
   cdverdes?: string;
 
-
 }
