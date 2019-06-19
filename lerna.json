@@ -2,10 +2,9 @@
   "command": {
     "publish": {
       "ignoreChanges": [
-        "ignored-file",
-        "*.md"
+        "**/*.md"
       ],
-      "message": "chore(release): publish"
+      "message": "chore(release): %s"
     },
     "bootstrap": {
       "npmClientArgs": [
